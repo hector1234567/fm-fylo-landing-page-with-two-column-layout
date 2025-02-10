@@ -85,6 +85,10 @@
       width: 1.4rem;
       height: 1.4rem;
       margin-left: 0.8rem;
+
+      @media screen and (max-width: 1357px) {
+        display: none;
+      }
     }
   }
 }

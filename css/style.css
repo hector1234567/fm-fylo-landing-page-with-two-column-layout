@@ -232,6 +232,11 @@ main {
   height: 1.4rem;
   margin-left: 0.8rem;
 }
+@media screen and (max-width: 1357px) {
+  .features__link svg {
+    display: none;
+  }
+}
 
 .signin {
   width: 100%;
