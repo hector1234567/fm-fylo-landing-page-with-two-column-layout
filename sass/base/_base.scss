@@ -36,6 +36,14 @@ $Shadow-2: 0 0 1rem 0.5rem hsla(0, 0%, 22%, 0.0459);
 
 html {
   font-size: 62.5%;
+
+  @media screen and (max-width: 1357px) {
+    font-size: 50%;
+  }
+
+  @media screen and (max-width: 1083px) {
+    font-size: 40%;
+  }
 }
 
 body {

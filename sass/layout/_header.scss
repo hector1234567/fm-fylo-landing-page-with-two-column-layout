@@ -5,8 +5,28 @@
   margin-bottom: 16.4rem;
   max-width: $Container-width;
 
+  @media screen and (max-width: 854px) {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
   &__illustration img {
     height: 47.4rem;
+
+    @media screen and (max-width: 854px) {
+      width: 304px;
+      margin: 0 28px;
+      height: auto;
+    }
+  }
+
+  &__content {
+    @media screen and (max-width: 854px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0 28px;
+    }
   }
 
   &__heading {
@@ -15,6 +35,10 @@
     line-height: 6rem;
     font-weight: $Bold;
     margin-bottom: 1.5rem;
+
+    @media screen and (max-width: 854px) {
+      text-align: center;
+    }
   }
 
   &__text {
@@ -22,6 +46,11 @@
     letter-spacing: 0.053rem;
     max-width: 58.5rem;
     margin-bottom: 2.5rem;
+
+    @media screen and (max-width: 854px) {
+      text-align: center;
+      max-width: unset;
+    }
   }
 
   &__form {
@@ -30,8 +59,19 @@
     gap: 1.6rem;
     max-width: 53.6rem;
 
+    @media screen and (max-width: 854px) {
+      flex-direction: column;
+      width: 100%;
+    }
+
     input {
       width: 100%;
+    }
+
+    button {
+      @media screen and (max-width: 854px) {
+        width: 100%;
+      }
     }
   }
 }

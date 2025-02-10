@@ -6,7 +6,13 @@
   max-width: $Container-width;
   margin: 6.5rem 6.5rem 8.6rem 6.5rem;
 
-  &__logo {
+  @media screen and (max-width: 854px) {
+    margin: 0;
+    padding: 24px;
+    max-width: unset;
+  }
+
+  &__logo img {
     width: 16.6rem;
   }
 
