@@ -155,7 +155,7 @@ main {
 
 .features {
   width: 100%;
-  background-image: url(/images/bg-curve-desktop.svg), linear-gradient(transparent 15%, hsl(240, 75%, 98%) 15%, hsl(240, 75%, 98%) 100%);
+  background-image: url(/images/bg-curve-desktop.svg), linear-gradient(transparent 15%, hsla(240, 75%, 98%, 0.86) 15%, hsl(240, 75%, 98%) 100%);
   background-repeat: no-repeat;
   background-size: 100% 15%, auto;
   display: flex;
@@ -168,7 +168,7 @@ main {
 @media screen and (max-width: 854px) {
   .features {
     flex-direction: column-reverse;
-    background-image: url(/images/bg-curve-desktop.svg), linear-gradient(transparent 5%, hsl(240, 75%, 98%) 5%, hsl(240, 75%, 98%) 100%);
+    background-image: url(/images/bg-curve-desktop.svg), linear-gradient(transparent 5%, hsla(240, 75%, 98%, 0.86) 5%, hsl(240, 75%, 98%) 100%);
     background-size: 100% 5%, auto;
     padding-top: 93px;
   }

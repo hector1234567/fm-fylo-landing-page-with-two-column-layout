@@ -3,7 +3,7 @@
   background-image: url(/images/bg-curve-desktop.svg),
     linear-gradient(
       transparent 15%,
-      $Light-Grayish-Blue 15%,
+      hsl(240, 75%, 98%, 0.86) 15%,
       $Light-Grayish-Blue 100%
     );
   background-repeat: no-repeat;
@@ -21,7 +21,7 @@
     background-image: url(/images/bg-curve-desktop.svg),
       linear-gradient(
         transparent 5%,
-        $Light-Grayish-Blue 5%,
+        hsl(240, 75%, 98%, 0.86) 5%,
         $Light-Grayish-Blue 100%
       );
     background-size: 100% 5%, auto;
