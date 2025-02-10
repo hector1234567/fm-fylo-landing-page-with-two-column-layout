@@ -97,6 +97,9 @@ main {
     height: auto;
   }
 }
+.header__content {
+  padding-bottom: 2rem;
+}
 @media screen and (max-width: 854px) {
   .header__content {
     display: flex;
@@ -159,7 +162,7 @@ main {
   justify-content: center;
   align-items: center;
   gap: 9rem;
-  padding-top: 15.8rem;
+  padding-top: 15rem;
   padding-bottom: 10.7rem;
 }
 @media screen and (max-width: 854px) {
