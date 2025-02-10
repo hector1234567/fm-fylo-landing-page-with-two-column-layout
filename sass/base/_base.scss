@@ -8,10 +8,23 @@ $Desaturated-Blue: hsl(238, 22%, 44%);
 $Bright-Blue: hsl(224, 93%, 58%);
 $Moderate-Cyan: hsl(170, 45%, 43%);
 
+$Light-blue: hsl(221, 100%, 71%);
+
+$Red: hsl(343, 84%, 61%);
+
 // Neutral
 
 $Light-Grayish-Blue: hsl(240, 75%, 98%);
 $Light-Gray: hsl(0, 0%, 75%);
+$White: hsl(0, 0%, 100%);
+
+$Container-width: 128rem;
+
+$Regular: 400;
+$Bold: 700;
+
+$Shadow-1: 0 0.1rem 0.3rem 0 hsla(0, 0%, 0%, 0.5);
+$Shadow-2: 0 0 1rem 0.5rem hsla(0, 0%, 22%, 0.0459);
 
 *,
 *::after,
@@ -26,4 +39,12 @@ html {
 }
 
 body {
+  font-family: $Font-Body;
+  font-size: 1.7rem;
+  color: $Very-Dark-Blue;
+  background-color: $White;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

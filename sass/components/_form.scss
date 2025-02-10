@@ -1,0 +1,59 @@
+.form {
+  position: relative;
+  input,
+  input:focus {
+    height: 4.5rem;
+    border: 0.1rem solid $Very-Dark-Blue;
+    padding-left: 2.1rem;
+    border-radius: 0.313rem;
+    font-family: inherit;
+    font-size: 1.4rem;
+    outline: none;
+
+    &::placeholder {
+      font-family: inherit;
+      color: $Light-Gray;
+      font-size: 1.4rem;
+    }
+
+    &:focus:invalid {
+      border: 0.1rem solid $Red;
+
+      & ~ .form__error {
+        display: inline-block;
+      }
+    }
+  }
+
+  button {
+    border: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    font-weight: $Bold;
+    color: $White;
+    background-color: $Bright-Blue;
+    border-radius: 0.313rem;
+    text-wrap: nowrap;
+    height: 4.5rem;
+    padding: 0 6.1rem;
+    text-align: center;
+    box-shadow: $Shadow-1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: $Light-blue;
+      box-shadow: none;
+    }
+  }
+
+  &__error {
+    position: absolute;
+    color: $Red;
+    font-size: 1.2rem;
+    letter-spacing: 0.04rem;
+    left: 0;
+    bottom: -2.1rem;
+    display: none;
+  }
+}

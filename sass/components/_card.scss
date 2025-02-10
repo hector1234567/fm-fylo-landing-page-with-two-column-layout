@@ -1,0 +1,48 @@
+.card {
+  width: 35.6rem;
+  padding: 3.3rem;
+  background-color: $White;
+  box-shadow: $Shadow-2;
+
+  &__text {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    letter-spacing: 0.03rem;
+    margin-bottom: 1.6rem;
+  }
+
+  &__quotes {
+    width: 1.8rem;
+  }
+
+  &__user {
+    display: grid;
+    grid-template-columns: min-content auto;
+    column-gap: 0.8rem;
+  }
+
+  &__photo {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 3.2rem;
+    background-image: url(/images/avatar-testimonial.jpg);
+    background-size: cover;
+    background-position: center;
+
+    grid-row: 1/3;
+  }
+
+  &__user-name {
+    font-size: 1.1rem;
+    font-family: $Font-Heading;
+    font-weight: $Bold;
+    letter-spacing: 0.055rem;
+    padding-top: 0.4rem;
+  }
+
+  &__user-data {
+    font-family: $Font-Heading;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+}
