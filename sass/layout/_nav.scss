@@ -10,10 +10,15 @@
     margin: 0;
     padding: 24px;
     max-width: unset;
+    margin-bottom: 98px;
   }
 
   &__logo img {
     width: 16.6rem;
+
+    @media screen and (max-width: 854px) {
+      width: 80px;
+    }
   }
 
   &__links {

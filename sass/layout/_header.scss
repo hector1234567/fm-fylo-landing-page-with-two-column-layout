@@ -39,6 +39,9 @@
 
     @media screen and (max-width: 854px) {
       text-align: center;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 24px;
     }
   }
 
@@ -51,6 +54,9 @@
     @media screen and (max-width: 854px) {
       text-align: center;
       max-width: unset;
+      font-size: 14px;
+      line-height: 21px;
+      margin-bottom: 32px;
     }
   }
 
@@ -63,6 +69,7 @@
     @media screen and (max-width: 854px) {
       flex-direction: column;
       width: 100%;
+      max-width: 304px;
     }
 
     input {
