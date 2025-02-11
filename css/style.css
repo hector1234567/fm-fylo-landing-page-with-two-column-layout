@@ -473,6 +473,7 @@ main {
   padding: 3.3rem;
   background-color: hsl(0, 0%, 100%);
   box-shadow: 0 0 1rem 0.5rem hsla(0, 0%, 22%, 0.0459);
+  border-radius: 0.393rem;
 }
 .card__text {
   font-size: 1.3rem;
